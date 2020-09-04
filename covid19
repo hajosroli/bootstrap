@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>JS Bin</title>
+<style id="jsbin-css">
+h1 {
+  text-align:center;
+}
+</style>
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>Covid-19</h1>
+    <div class="row" style="border:1px solid black;background:red;">
+      <div class="col-xs-4 col-xs-offset-4 col-md-3 col-md-offset-6">Teszteredmények</div>
+    </div>
+    <div class="row" style="border:1px solid black;background:white;">
+      <div class="col-xs-6">
+        <div class="col-xs-3 col-xs-offset-3">Pozitív</div>
+      </div>
+      <div class="col-xs-6">
+        <div class="col-xs-3 col-xs-offset-3">Negatív</div>
+      </div>
+    </div>
+    <div class="row" style="border:1px solid black;background:green;">
+      <div class="col-xs-3">Tünetes</div>
+      <div class="col-xs-3">Tünetmentes</div>
+      <div class="col-xs-3">Tünetes</div>
+      <div class="col-xs-3">Tünetmentes</div>
+    </div>
+  </div> 
+
+
+<script id="jsbin-source-css" type="text/css">h1 {
+  text-align:center;
+}</script>
+</body>
+</html>
+
+h1 {
+  text-align:center;
+}
