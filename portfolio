@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<style id="jsbin-css">
+img { 
+    height: auto;
+  width: 60%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;   
+  }
+
+body { 
+  background: #777;
+color: #F0FFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  margin-bottom: 12px;
+}
+
+.name {
+  margin-top:40px;
+}
+
+@media (min-width: 1024px) {
+  .name {
+     margin-top: 150px;
+  }
+  
+  .btn_group {
+    margin-top: 100px;
+  }
+  
+  h2 {
+    margin-top: 100px;
+  }
+ 
+}
+
+.jumbotron {
+  color: #808080;
+}
+
+.list-group-item {
+  color: #808080;
+}
+
+.list-group-item {
+  margin-bottom: 3px;
+}
+
+.panel-body {
+  color: #808080; 
+}
+
+.
+}
+</style>
+</head>
+<body>
+  <div class="container"><span class="border-bottom"></span>
+    <div class="row">
+      <div class="name col-md-5 col-sm-5 col-xs-12 text-center">
+        <h1>Hajós Roland,</h1>
+        <h3>profi sportoló és kezdő programozó</h3>
+        <div class="btn_group">
+          <a href="#" class="btn btn-default">Tanulmányok</a>
+          <a href="#" class="btn btn-default">Sport</a>
+          <a href="#" class="btn btn-default">Elérhetőségek</a>
+        </div>
+        </div>
+        <div class="col-md-7 col-sm-7 col-xs-12 alert">
+          <img class="img-responsive img-rounded" src="https://www.fradi.hu/upload/768x0/y/33/rzz9r.jpg" alt="én">
+        </div>
+      </div>
+    </div>
+  <div class="jumbotron container">
+    <div class="row">
+      <div class="col-sm-5 col-xs-12 text-center align-middle">
+        <h2 class="alert">Rólam</h2>
+      </div>
+      <div class="col-sm-7 col-xs-12">
+        <h4>Helló! Én egy profi jégkorongozó vagyok, 6 éves korom óta űzöm ezt a sportot, és 18 éves korom óta vagyok profi. Időm nagy részét jelenleg a sport tölti ki, de a fennmaradó szabadidőmet szeretem hasznosan tölteni. Az egyetemen Gazdálkodás és menedzsment szakon szereztem diplomát, egy ideje pedig felkeltette az érdeklődésemet a programozás. Könnyen előfordulhat, hogy a későbbiekben szeretnék komolyabban is foglalkozni vele. Tulajdonképpen szinte az egész életem során egy csapatnak voltam a tagja, több éven keresztül voltam csapatkapitány, jó csapatjátékosnak tartom magam. Talán ezt a programozás során is tudnám kamatoztatni.</h4>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
+        <h2 class="text-center alert">Tanulmányok</h2>
+        <ul class="list-group">
+  <li class="list-group-item">Miskolci Egyetem - Gazdálkodás és Menedzsment(Bsc)</li>
+  <li class="list-group-item">Angol Felsőfokú Nyelvvizsga(C1)</li>
+  <li class="list-group-item">Német Középfokú Nyelvvizsga(B2) </li>
+          <li class="list-group-item">Aranykalászos gazda (OKJ) </li>
+          <li class="list-group-item">Codeberry Programming School</li>
+ </ul>
+      </div>
+      </div>
+    <div class="row">
+      <h2 class="text-center alert">Sport</h2>
+      <div class="col-sm-6 col-xs-12">
+        <table class="table table-bordered">
+  <tr>
+    <th>Év</th>
+    <th>Csapat</th>
+  </tr>
+  <tr>
+    <td>2008-2013</td>
+    <td>Fehérvár AV19</td>
+  </tr>
+  <tr>
+    <td>2013-2019</td>
+    <td>Miskolci Jegesmedvék/ DVTK Jegesmedvék</td>
+  </tr>
+  <tr>
+    <td>2019-</td>
+    <td>Ferencvárosi TC</td>
+  </tr>
+  <tr>
+</table>
+     </div>
+     <div class="col-sm-6 col-xs-12">
+       <div class="panel panel-primary">
+  <div class="panel-body text-center">Eredmények</div>
+     <ul class="list-group small">
+       <li class="list-group-item">Magyar Bajnok: 08/09, 10/11, 11/12, 14/15, 15/16, 16/17, 19/20<span class="badge">7</span></li>
+       <li class="list-group-item">Erste Liga Bajnok: 16/17, 19/20<span class="badge">2</span></li>
+       <li class="list-group-item">Mol Liga Bajnok: 14/15, 15/16 <span class="badge">2</span></li>
+       <li class="list-group-item">Magyar Kupa Győztes: 14/15, 17/18, 19/20 <span class="badge">3</span></li>
+       <li class="list-group-item">U20-as világbajnokság (D2/A): 2.hely 09/10</li>
+ </ul>
+  </div>
+</div>
+    </div>
+ <div class="row">
+   <h2 class="text-left alert">Elérhetőségek:</h2>
+   <h3><span class="glyphicon glyphicon-globe"></span> 8000 Székesfehérvár, Hungary</h3>
+   <h3><span class="glyphicon glyphicon-envelope"></span> hajosr7@gmail.com</h3>
+   <h3><span class="glyphicon glyphicon-phone"></span> +36301234567</h3>
+        </div>
+   
+
+
+<script id="jsbin-source-css" type="text/css">
+  
+  img { 
+    height: auto;
+  width: 60%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;   
+  }
+
+body { 
+  background: #777;
+color: #F0FFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  margin-bottom: 12px;
+}
+
+.name {
+  margin-top:40px;
+}
+
+@media (min-width: 1024px) {
+  .name {
+     margin-top: 150px;
+  }
+  
+  .btn_group {
+    margin-top: 100px;
+  }
+  
+  h2 {
+    margin-top: 100px;
+  }
+ 
+}
+
+.jumbotron {
+  color: #808080;
+}
+
+.list-group-item {
+  color: #808080;
+}
+
+.list-group-item {
+  margin-bottom: 3px;
+}
+
+.panel-body {
+  color: #808080; 
+}
+
+.
+}
+</script>
+</body>
+</html>
