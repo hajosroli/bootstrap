@@ -126,7 +126,6 @@ color: #F0FFFF;
     <td>2019-</td>
     <td>Ferencvárosi TC</td>
   </tr>
-  <tr>
 </table>
      </div>
      <div class="col-sm-6 col-xs-12">
@@ -147,8 +146,8 @@ color: #F0FFFF;
    <h3><span class="glyphicon glyphicon-globe"></span> 8000 Székesfehérvár, Hungary</h3>
    <h3><span class="glyphicon glyphicon-envelope"></span> hajosr7@gmail.com</h3>
    <h3><span class="glyphicon glyphicon-phone"></span> +36301234567</h3>
-        </div>
-   
+   </div>
+  </div>
 
 
 <script id="jsbin-source-css" type="text/css">
